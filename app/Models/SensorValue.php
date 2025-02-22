@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class SensorValue extends Model
 {
     protected $table = 'sensor_values';
-    protected $fillable = ['sensor_id', 'created_at', 'updated_at'];
+    protected $fillable = ['value', 'created_at', 'updated_at'];
 
     protected $casts = [
         'created_at' => 'datetime',
